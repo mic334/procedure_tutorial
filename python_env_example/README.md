@@ -53,7 +53,6 @@ activate the enviroiment
 ```bash
 source myenv/bin/activate
 
-```
 # You should see the prompt change:
 # (myenv) user@computer:~/folder_name$
 
