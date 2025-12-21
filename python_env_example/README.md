@@ -53,17 +53,23 @@ activate the enviroiment
 ```bash
 source myenv/bin/activate
 
+```
 # You should see the prompt change:
-# (myenv) user@computer:~/Procedure_tutorial$
+# (myenv) user@computer:~/folder_name$
 
 # Install packages
+```bash
 pip install numpy scipy matplotlib
+```
 
 # Verify installation
+```bash
 python -c "import numpy; print(numpy.__version__)"
 # Output example:
 # 1.24.2
-
+```
 # Deactivate when done
+```bash
 deactivate
+```
 # Prompt returns to normal
