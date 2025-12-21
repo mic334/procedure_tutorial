@@ -34,5 +34,4 @@ The example uses common scientific libraries such as **NumPy** and **Matplotlib*
 
 - Each folder is independent
 - Examples are intentionally simple and educational
-- The structure is suitable for extension to larger projects or HPC workflows
 
