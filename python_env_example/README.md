@@ -15,12 +15,13 @@ Before creating a dedicated Python environment, let's make sure Python is instal
 python3 --version
 # or
 python --version
- 
+```
+
 ## If python is installed, you will se the version number e.g:
 
 ```bash
 Python 3.10.8
-
+```
 ## if python is not installed, use one of the following command to install:
 
 macOS
