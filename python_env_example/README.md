@@ -55,20 +55,20 @@ source myenv/bin/activate
 
 # You should see the prompt change:
 # (myenv) user@computer:~/folder_name$
+```
 
-# Install packages
+## Install packages
 ```bash
 pip install numpy scipy matplotlib
 ```
 
-# Verify installation
+## Verify installation
 ```bash
 python -c "import numpy; print(numpy.__version__)"
 # Output example:
 # 1.24.2
 ```
-# Deactivate when done
+## Deactivate when done
 ```bash
 deactivate
-```
 # Prompt returns to normal
