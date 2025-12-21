@@ -47,9 +47,10 @@ sudo adp install python3 python3-pip -y
 ### 1. Create the environment
 ```bash
 python3 -m venv myenv
-
+```
 activate the enviroiment
 
+```bash
 source myenv/bin/activate
 
 # You should see the prompt change:
