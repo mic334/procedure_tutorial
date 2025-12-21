@@ -25,11 +25,16 @@ Python 3.10.8
 ## if python is not installed, use one of the following command to install:
 
 macOS
+
+```bash
 brew install python 
+```
 
 Linux(ubuntu)
+```bash
 sudo apt update 
 sudo adp install python3 python3-pip -y
+```
 
 ## Advantages of Python Environments in Chemistry
 
