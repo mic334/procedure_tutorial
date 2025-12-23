@@ -45,7 +45,7 @@ fi
 
 REMOTE_PATH="$1"
 NEW_NAME="${2:-$(basename "$REMOTE_PATH")}"  # Se non specificato, mantiene il nome originale
-REMOTE_USER="morza000"
+REMOTE_USER="utente"
 REMOTE_HOST="login.leonardo.cineca.it"
 
 
