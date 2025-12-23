@@ -22,6 +22,12 @@ The example uses common scientific libraries such as **NumPy** and **Matplotlib*
 
 ---
 
+### `some_script_file/`
+This folder contains a collection of bash file:
+- a bash file to copy to leonardo
+
+---
+
 ## How to use this repository
 
 1. Start from `python_env_example/` to set up your Python environment
