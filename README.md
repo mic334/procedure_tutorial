@@ -1,37 +1,19 @@
+# Documentazione script `mscp.sh`
 
-## Folder descriptions
-
-### `python_env_example/`
-This folder contains a **step-by-step guide** to:
-- check if Python is installed
-- create and activate a Python virtual environment (`venv`)
-- install required packages
-- generate a `requirements.txt`
-
-It is meant as a **basic setup tutorial** before running any Python project.
+`mscp.sh` è uno script per copiare file o cartelle dal **cluster Leonardo di CINECA** alla macchina locale tramite SCP, gestendo anche eventuali cambi della chiave SSH del server.
 
 ---
 
-### `class_main_example/`
-This folder contains a **practical Object-Oriented Programming example**:
-- a Python **class** defined in a separate file
-- a **main script** that imports and uses the class
-- a local `README.md` explaining how the example works
+## Cosa fa
 
-The example uses common scientific libraries such as **NumPy** and **Matplotlib**.
+- Copia file o cartelle dal percorso remoto del cluster alla tua macchina locale.
+- Se il secondo argomento non viene fornito, mantiene lo stesso nome del file/cartella remota.
+- Rimuove automaticamente la vecchia chiave SSH se il server ha cambiato chiave, e riprova la connessione.
 
 ---
 
-## How to use this repository
+## Come usarlo
 
-1. Start from `python_env_example/` to set up your Python environment
-2. Move to `class_main_example/` to run and study the OOP example
-3. Read the `README.md` inside each folder for detailed instructions
-
----
-
-## Notes
-
-- Each folder is independent
-- Examples are intentionally simple and educational
+```bash
+./mscp.sh <percorso_remoto_dopo_doppi_punti> [nuovo_nome_locale]
 
