@@ -20,7 +20,7 @@
 
 ---
 
-## Nuovo script: `super_bolo.py`
+## Documentation script: `super_bolo.py`
 
 `super_bolo.py` è uno script Python per **sovrapporre due molecole** in Chimera, colorando la prima molecola di rosso e la seconda di blu.
 
@@ -28,7 +28,7 @@
 
 ### Cosa fa
 
-- Sovrappone due strutture molecolari per confronto visivo.
+- Sovrappone delle strutture molecolari per confronto visivo.
 - Colora automaticamente le molecole: rosso per la prima, blu per la seconda.
 - Ideale per visualizzare rapidamente le sovrapposizioni strutturali in Chimera.
 
