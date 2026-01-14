@@ -17,3 +17,28 @@
 ```bash
 ./mscp.sh percorso_remoto_dopo_doppi_punti [nuovo_nome_locale]
 
+
+---
+
+## Nuovo script: `super_bolo.py`
+
+`super_bolo.py` è uno script Python per **sovrapporre due molecole** in Chimera, colorando la prima molecola di rosso e la seconda di blu.
+
+- Il nome `super_bolo` deriva dalla combinazione di **“superposition”** (sovrapposizione molecolare) e **“Bolo”**, un riferimento ai colori **rosso e blu** (come quelli della città di Bologna).
+
+### Cosa fa
+
+- Sovrappone due strutture molecolari per confronto visivo.
+- Colora automaticamente le molecole: rosso per la prima, blu per la seconda.
+- Ideale per visualizzare rapidamente le sovrapposizioni strutturali in Chimera.
+
+### Come usarlo
+
+1. Aprire le due molecole all'interno di Chimera, ad esempio:
+
+```bash
+chimera mol1.xyz mol2.xyz
+
+2. Aprire la command line di Chiemere 
+
+runscript /path/to/super_bolo.py
