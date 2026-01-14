@@ -16,7 +16,7 @@
 
 ```bash
 ./mscp.sh percorso_remoto_dopo_doppi_punti [nuovo_nome_locale]
-
+```
 
 ---
 
