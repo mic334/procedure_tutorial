@@ -26,6 +26,7 @@ The example uses common scientific libraries such as **NumPy** and **Matplotlib*
 This folder contains a collection of bash file:
 - a bash file to copy to leonardo
 - a py script for molecular superposition between two molecules in Chimera
+- a py+bash script for GOAT+DFT
 
 ---
 
