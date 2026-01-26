@@ -30,6 +30,12 @@ This folder contains a collection of bash file:
 
 ---
 
+### `OPEN_BLAS/`
+This folder contains a few simple of bash command usefull to install openBlas on a Linux system:
+- a .txt file   
+
+---
+
 ## How to use this repository
 
 1. Start from `python_env_example/` to set up your Python environment
